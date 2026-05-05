@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bulletin - Premium News Portal</title>
+    <!-- Premium Font: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <div class="glow-bg-2"></div>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <h1 class="logo">The<span>Bulletin</span></h1>
+            <nav class="nav-links">
+                <a href="#politics-news">BD Politics</a>
+                <a href="#bd-news">Bangladesh</a>
+                <a href="#international-news">International</a>
+                <a href="#top-stories">Breaking News</a>
+                <a href="#sports-news">Sports</a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Politics News (First Priority) -->
+        <section id="politics-news" class="news-section">
+            <div class="section-header">
+                <h2>BD Politics</h2>
+                <div class="glow-line"></div>
+            </div>
+            <div id="politics-loader" class="skeleton-grid">
+                <!-- Skeletons -->
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+            </div>
+            <div id="politics-grid" class="news-grid hidden"></div>
+        </section>
+
+        <!-- Breaking News (Global) -->
+        <section id="top-stories" class="news-section">
+            <div class="section-header">
+                <h2>Breaking News</h2>
+                <div class="glow-line"></div>
+            </div>
+            <div id="top-loader" class="skeleton-grid">
+                <!-- Skeletons -->
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+            </div>
+            <div id="top-grid" class="news-grid hidden"></div>
+        </section>
+
+        <!-- Bangladesh News -->
+        <section id="bd-news" class="news-section">
+            <div class="section-header">
+                <h2>Bangladesh</h2>
+                <div class="glow-line"></div>
+            </div>
+            <div id="bd-loader" class="skeleton-grid">
+                <!-- Skeletons -->
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+            </div>
+            <div id="bd-grid" class="news-grid hidden"></div>
+        </section>
+
+        <!-- International News -->
+        <section id="international-news" class="news-section">
+            <div class="section-header">
+                <h2>International</h2>
+                <div class="glow-line"></div>
+            </div>
+            <div id="international-loader" class="skeleton-grid">
+                <!-- Skeletons -->
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+            </div>
+            <div id="international-grid" class="news-grid hidden"></div>
+        </section>
+
+        <!-- Sports News -->
+        <section id="sports-news" class="news-section">
+            <div class="section-header">
+                <h2>Sports</h2>
+                <div class="glow-line"></div>
+            </div>
+            <div id="sports-loader" class="skeleton-grid">
+                <!-- Skeletons -->
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+                <div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-text"></div><div class="skeleton-text short"></div></div>
+            </div>
+            <div id="sports-grid" class="news-grid hidden"></div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2 class="logo">The<span>Bulletin</span></h2>
+                <p>The premium portal for global & local insights.</p>
+            </div>
+            <p class="copyright">&copy; 2026 The Bulletin. Developed by Hasan Ahmed Sojib.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
